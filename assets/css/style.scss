@@ -1,0 +1,8 @@
+---
+---
+@import "{{ site.theme }}";
+
+// 隐藏整个绿色页眉区域（包括背景、标题和描述）
+.page-header {
+    display: none !important;
+}

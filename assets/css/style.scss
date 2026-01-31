@@ -2,7 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-// 隐藏整个绿色页眉区域（包括背景、标题和描述）
 .page-header {
     display: none !important;
+}
+
+.site-footer {
+    display: none !important;
+}
+
+.main-content {
+    padding-top: 0rem !important;    // 顶部留白
+    padding-bottom: 0rem !important; // 底部留白
+//    max-width: 64rem;               // 如果觉得太宽可以调整这个值
 }

@@ -103,9 +103,8 @@ function Create-Gif($outputName, $regex) {
             -resize 300x `
             -gravity South `
             -fill white `
-            -undercolor "#00000080" `
-            -pointsize 35 `
-            -annotate +0+10 " $displayTS " `
+            -pointsize 18 `
+            -annotate +0+5 " $displayTS " `
             "$tempImgPath"
         
         $tempFileList += "`"$tempImgPath`""

@@ -55,7 +55,7 @@ if %errorlevel% equ 0 (
     echo [错误] 推送失败，请检查网络或 Token 配置。
 )
 
-pause
+:: pause
 exit /b
 #>
 
